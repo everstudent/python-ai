@@ -42,3 +42,8 @@ print(authors_price)
 
 book_info = pd.pivot_table(authors_price, values='price', index='author_name', columns=['cover'], aggfunc=sum, fill_value=0)
 print(book_info)
+
+book_info.to_pickle("book_info.pkl")
+book_info2 = pd.read_pickle('book_info.pkl')
+
+print(book_info2.equals(book_info))
