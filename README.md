@@ -1,2 +1,4 @@
-# python-ai
-Python AI libs homeworks
+# Python Scikit Diploma
+
+- [Diploma program](/Diploma.ipynb)
+- [Predictions](/DGolotiuk_predictions.csv)
